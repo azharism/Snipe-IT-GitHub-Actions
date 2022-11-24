@@ -45,7 +45,7 @@ jobs:
             whoami
             git clone https://github.com/azharism/Snipe-IT-GitHub-Actions.git
             cd /home/ubuntu/Snipe-IT-GitHub-Actions
-            git init
-            git pull origin devcontainer
+            sudo git init
+            sudo git pull origin devcontainer
             sudo docker-compose up -d
             sudo docker-compose up --build -d
